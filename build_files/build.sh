@@ -2,8 +2,6 @@
 
 set -ouex pipefail
 
-/ctx/guix.sh
-
 ### Uninstall packages
 dnf5 remove -y Sunshine \
   waydroid
@@ -31,5 +29,3 @@ dnf5 -y autoremove
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
-
-mkdir /nix
