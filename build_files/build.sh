@@ -30,3 +30,5 @@ dnf5 -y autoremove
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+
+/ctx/guix.sh
