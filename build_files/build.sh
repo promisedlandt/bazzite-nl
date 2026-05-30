@@ -23,6 +23,7 @@ dnf5 -y copr enable wezfurlong/wezterm-nightly
 dnf5 -y install wezterm
 # Disable COPRs so they don't end up enabled on the final image:
 dnf5 -y copr disable ublue-os/staging
+dnf5 -y copr disable wezfurlong/wezterm-nightly
 
 dnf5 -y autoremove
 
