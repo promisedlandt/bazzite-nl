@@ -2,10 +2,11 @@
 
 set -ouex pipefail
 
+# Since the top level directory is read only, create an offload directory at /var/gnu and mount it to /gnu
 mkdir /gnu
+mkdir -p /var/gnu
 
-# Offload directory
-mkdir -p /var/gnu/store
+cp /ctx/guix/gnu.mount /etc/systemd/systemd
 
 # SELinux policy
 cp /ctx/guix/guix-daemon.{pp,te} /usr/share/selinux/targeted/

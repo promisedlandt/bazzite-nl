@@ -1,0 +1,13 @@
+# /etc/systemd/system/gnu.mount
+[Unit]
+Description=Mount offload directory for GNU Guix
+DefaultDependencies=no
+ConditionPathExists=/gnu
+
+[Install]
+WantedBy=multi-user.target
+
+[Mount]
+What=/var/gnu
+Where=/gnu
+Options=bind
