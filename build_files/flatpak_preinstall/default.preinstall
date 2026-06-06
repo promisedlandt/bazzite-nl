@@ -1,0 +1,11 @@
+[Flatpak Preinstall com.github.Matoking.protontricks]
+Branch=stable
+
+[Flatpak Preinstall menu.kando.Kando]
+Branch=stable
+
+[Flatpak Preinstall com.github.iwalton3.jellyfin-mpv-shim]
+Branch=stable
+
+[Flatpak Preinstall com.github.tchx84.Flatseal]
+Branch=stable

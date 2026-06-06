@@ -32,4 +32,7 @@ dnf5 -y autoremove
 
 systemctl enable podman.socket
 
+mkdir -p /etc/flatpak/preinstall.d/
+cp /ctx/flatpak_preinstall/*.preinstall /etc/flatpak/preinstall.d/
+
 /ctx/guix.sh
