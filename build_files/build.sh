@@ -15,7 +15,8 @@ dnf5 remove -y Sunshine \
 
 # this installs a package from fedora repos
 dnf5 install -y tmux \
-  chezmoi
+  chezmoi \
+  firefox
 
 # COPRs
 dnf5 -y copr enable ublue-os/staging
