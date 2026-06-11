@@ -6,7 +6,7 @@ set -ouex pipefail
 mkdir /gnu
 mkdir -p /var/gnu
 
-cp /ctx/guix/gnu.mount /etc/systemd/systemd
+cp /ctx/guix/gnu.mount /etc/systemd/system
 
 # SELinux policy
 cp /ctx/guix/guix-daemon.{pp,te} /usr/share/selinux/targeted/
