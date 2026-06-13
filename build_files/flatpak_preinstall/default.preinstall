@@ -9,3 +9,9 @@ Branch=stable
 
 [Flatpak Preinstall com.github.tchx84.Flatseal]
 Branch=stable
+
+[Flatpak Preinstall com.vysp3r.ProtonPlus]
+Branch=stable
+
+[Flatpak Preinstall com.moonlight_stream.Moonlight]
+Branch=stable
