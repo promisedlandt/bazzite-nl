@@ -30,9 +30,10 @@ dnf5 -y copr disable wezfurlong/wezterm-nightly
 
 dnf5 -y autoremove
 
-#### Example for enabling a System Unit File
-
 systemctl enable podman.socket
+
+systemctl disable plasmalogin.service
+systemctl enable greetd.service
 
 mkdir -p /etc/flatpak/preinstall.d/
 cp /ctx/flatpak_preinstall/*.preinstall /etc/flatpak/preinstall.d/
