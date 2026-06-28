@@ -18,7 +18,8 @@ dnf5 install -y tmux \
   chezmoi \
   firefox \
   greetd \
-  gtkgreet
+  gtkgreet \
+  @cosmic-desktop-environment
 
 # COPRs
 dnf5 -y copr enable ublue-os/staging
