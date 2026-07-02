@@ -1,0 +1,11 @@
+diff a/build_files/build.sh b/build_files/build.sh	(rejected hunks)
+@@ -18,7 +18,8 @@ dnf5 install -y tmux \
+   chezmoi \
+   firefox \
+   greetd \
+-  gtkgreet
++  gtkgreet \
++  wayfire
+ 
+ # COPRs
+ dnf5 -y copr enable ublue-os/staging

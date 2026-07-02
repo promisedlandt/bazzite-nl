@@ -18,7 +18,9 @@ dnf5 install -y tmux \
   chezmoi \
   firefox \
   greetd \
-  gtkgreet
+  gtkgreet \
+  swaylock \
+  hyprlock
 
 # COPRs
 dnf5 -y copr enable ublue-os/staging
